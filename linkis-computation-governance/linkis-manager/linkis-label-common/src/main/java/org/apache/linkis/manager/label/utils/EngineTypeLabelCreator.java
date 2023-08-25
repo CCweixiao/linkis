@@ -70,6 +70,8 @@ public class EngineTypeLabelCreator {
           defaultVersion.put(
               EngineType.PRESTO().toString(), LabelCommonConfig.PRESTO_ENGINE_VERSION.getValue());
           defaultVersion.put(
+                  EngineType.HBASE().toString(), LabelCommonConfig.HBASE_ENGINE_VERSION.getValue());
+          defaultVersion.put(
               EngineType.SQOOP().toString(), LabelCommonConfig.SQOOP_ENGINE_VERSION.getValue());
           defaultVersion.put(
               EngineType.DATAX().toString(), LabelCommonConfig.DATAX_ENGINE_VERSION.getValue());
